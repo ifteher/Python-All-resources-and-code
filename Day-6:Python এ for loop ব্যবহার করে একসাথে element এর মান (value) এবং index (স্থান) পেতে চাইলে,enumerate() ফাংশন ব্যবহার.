@@ -1,0 +1,18 @@
+fruits = ['apple', 'banana', 'cherry', 'mango']
+
+for index, fruit in enumerate(fruits):
+    print(f'Index: {index}, Value: {fruit}')
+
+
+
+
+#Output:
+Index: 0, Value: apple
+Index: 1, Value: banana
+Index: 2, Value: cherry
+Index: 3, Value: mango
+
+
+🧠 সংক্ষিপ্ত ব্যাখ্যা:
+enumerate() ফাংশনটি list-এর প্রতিটি উপাদানের index এবং value একসাথে দেয়।
+for index, value in enumerate(list): এই format-এ loop করলে তুমি একসাথেই দুইটা পাবে।
