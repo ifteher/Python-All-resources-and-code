@@ -1,0 +1,20 @@
+vscode e python code:
+
+1)ctrl+j dile run hoy.
+
+2)Alt+up arrow dilee upor e jabe line ta.
+
+3)je porjonto comment kora lagbe seta select kore ctrl+/ dilee oi poro ongsho '#' diye comment hoye jai.
+
+4)Shift + Alt + F5   → রান করে ডিবাগ মোডে
+Ctrl + F5          → রান করে (ডিবাগ ছাড়া)
+
+5)Ctrl + J → শুধু Terminal খুলে দেয় VS Code-এ। এটা রান করার shortcut না।
+সেখানে টাইপ করো:
+python forloop.py(fileName)
+👉 তবেই Python কোড রান হবে।
+
+6)Copilot-এর সাজেশন accept করার শর্টকাট কী?
+Platform	কি চাপলে সাজেশন কোডে বসে যাবে
+Windows/Linux	 :Tab বা Ctrl + Enter
+macOS	         :Tab বা Cmd + Enter
