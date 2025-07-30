@@ -1,0 +1,44 @@
+# ইনপুট নেওয়া (input() সবসময় string return করে)
+name = input("তোমার নাম লিখো: ")  # ইউজার থেকে নাম ইনপুট নিচ্ছে
+print("স্বাগতম,", name)  # আউটপুট দিচ্ছে
+
+# আরেকটি ইনপুট: সংখ্যা ইনপুট নিচ্ছে
+age_str = input("তোমার বয়স কত? ")  # এটি string হিসেবে নিবে
+print("তুমি বলেছো বয়স:", age_str)
+
+# টাইপ দেখানো
+print("বয়সের ডেটা টাইপ:", type(age_str))  # এটি হবে <class 'str'>
+
+# টাইপকাস্টিং: string থেকে integer এ কনভার্ট করা
+age_int = int(age_str)  # string → integer রূপান্তর
+
+# এখন integer হিসেবে ব্যবহার করা যাবে
+print("তুমি ৫ বছর পরে হবে:", age_int + 5)
+
+# আবার integer থেকে string এ কনভার্ট করা
+age_str_again = str(age_int)  # integer → string রূপান্তর
+
+# টাইপ চেক করা
+print("আবার টাইপ:", type(age_str_again))  # এটি হবে <class 'str'>
+
+
+
+
+#Output:
+তোমার নাম লিখো: Khaled
+স্বাগতম, Khaled
+তোমার বয়স কত? 18
+তুমি বলেছো বয়স: 18
+বয়সের ডেটা টাইপ: <class 'str'>
+তুমি ৫ বছর পরে হবে: 23
+আবার টাইপ: <class 'str'>
+
+
+#Summary:
+input() দিয়ে ইনপুট নেওয়া হয় → সবসময় string দেয়।
+
+int() দিয়ে string কে সংখ্যা বানানো যায়।
+
+str() দিয়ে যেকোনো টাইপকে string-এ রূপান্তর করা যায়।
+
+টাইপ চেক করতে type() ব্যবহার করা হয়।
