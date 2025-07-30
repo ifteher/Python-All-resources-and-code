@@ -1,0 +1,21 @@
+a=7
+boss=False 
+
+# if a>5:
+   #  print('5 er beshi')
+   #  print('koto beshi ke jane')
+# elif a>3:
+   # print('olpo boro')
+# elif a==2:
+   # print('2 er soman soman')
+# else:
+#  print('choto choto raatee lomba hoye')
+coin = 'tail'
+if boss is not True:
+   print('Boss er jonno tell er bakso niye astechi tell dite hobe')
+   if coin == 'tail':
+      print('Boss er dol batting korbe')
+   else: 
+      print('Boss er dol batting korbe na')
+else:
+   print('Boss ke agee thekee kew tell diye diche jaiga moton')
